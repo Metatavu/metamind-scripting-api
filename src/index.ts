@@ -1,6 +1,6 @@
 declare var Polyglot: any;
 
-export class MetamindModule {
+export abstract class MetamindModule {
 
   constructor(moduleName: string) {
     Polyglot.export(moduleName, this);
